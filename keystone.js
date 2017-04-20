@@ -14,6 +14,7 @@ keystone.init({
 	'name': 'ASR',
 	'brand': 'ASR',
 
+	'cloudinary config': 'http://res.cloudinary.com/ddcdmch5k',
 	'sass': 'public',
 	'static': 'public',
 	'favicon': 'public/favicon.ico',
