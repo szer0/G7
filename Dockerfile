@@ -8,10 +8,10 @@ WORKDIR /src
 #RUN npm install --silent -g grunt-cli
 #RUN wget https://yarnpkg.com/latest.tar.gz
 
-COPY package.json /src
+COPY . /src
 RUN npm install --silent
 
-COPY . /src
+
 
 EXPOSE 3000
 
